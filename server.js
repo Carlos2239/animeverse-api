@@ -24,7 +24,7 @@ app.get('/buscar', async (req, res) => {
 
         const data = await response.json();
         
-        // Procesar y limpiar los datos: Imagen, Título, Sinopsis, Calificación, Tipo
+        
         const cleanedData = data.data.map(anime => ({
             id: anime.mal_id,
             title: anime.title || 'Título Desconocido',
