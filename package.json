@@ -1,0 +1,12 @@
+{
+  "name": "anime-verse",
+  "version": "1.0.0",
+  "description": "AnimeVerse Direct SPA",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
